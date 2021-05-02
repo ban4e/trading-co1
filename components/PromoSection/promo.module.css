@@ -1,0 +1,32 @@
+.promo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 980px;
+}
+.promo::before {
+    content: '';
+    display: block;
+    padding-top: 56.25%;
+    height: 0;
+}
+
+.promoContent {
+    position: relative;
+    max-width: 820px;
+    text-align: center;
+}
+
+.promoTitle, .promoSubtitle {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.2;
+    filter: drop-shadow(0 0 3px rgba(100, 0, 0, .5));
+}
+
+.promoNote {
+    margin-top: 20px;
+    font-weight: 700px;
+    filter: drop-shadow(0 0 3px rgba(100, 0, 0, .5));
+}

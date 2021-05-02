@@ -1,0 +1,38 @@
+.productHeader {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.productHeaderTitle {
+    font-size: 40px;
+    color: rgb(255, 192, 58);
+    text-transform: uppercase;
+}
+
+.productHeaderSubtitle {
+    margin-top: 16px;
+}
+
+.productContainer {
+    background-color: rgb(25, 25, 25);
+}
+
+.productDescription {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: rgb(255, 192, 58);
+}
+
+.productImage {
+    position: relative;
+    max-height: 500px;
+}
+
+.productImage::before {
+    content: '';
+    display: block;
+    padding-top: 56.25%;
+    height: 0;
+}

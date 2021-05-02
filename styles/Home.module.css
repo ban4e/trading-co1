@@ -1,0 +1,13 @@
+.bodyWrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.bodyHeader {
+    flex: 0 0 auto;
+}
+.bodyContainer {
+    flex: 1 1 auto;
+}
